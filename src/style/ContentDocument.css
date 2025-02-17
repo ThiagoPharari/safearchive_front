@@ -1,0 +1,138 @@
+.mt-4, .my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.card-header {
+    border: none;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 2px) calc(.25rem - 1px) 0 0;
+}
+
+.box_header_1 {
+    background-color: #28AECE;
+    color: #ffffff;
+    padding: 1%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80%;
+    line-height: 19px;
+}
+
+.box_block {
+   
+    box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.7);
+}
+.s_card_button {
+    background: #FFFFFF;
+    border: 0.5px solid #28AECE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+    width: 20%; 
+    height: 40%;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    box-shadow: 3px 3px 2px rgba(202, 209, 216, 0.75);
+}
+
+.btn_register {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.s_card_button2 {
+    background: #FFFFFF;
+    border: 0.5px solid #28AECE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 3px 3px 2px rgba(202, 209, 216, 0.75);
+    width: 100px;
+    height: 100px; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.s_card_button .card-title {
+    line-height: 1.2;
+    font-size: 80%;
+    font-style: normal;
+    font-weight: bolder;
+    color: #28AECE;
+}
+
+.line_item {
+    border: 3px solid #28AECE;
+}
+.text-item-title {
+    color: #28AECE;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.breadcrumb_inicio {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+.table_document {
+    text-align: center;
+    font-size: 100%;
+    
+}
+.tableheadercolor {
+    font-size: 80%;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: bolder;
+}
+.row-disabled {
+    background-color: #e0f71a;  /* Color de fondo rojo claro */
+    align-items: center;
+    color: rgb(26, 37, 18);  /* Color de texto rojo oscuro */
+    opacity: 0.7;  /* Baja opacidad para indicar que está deshabilitado */
+    background:#f58a93;
+}
+.row-disabled:hover {
+    cursor: not-allowed;  /* Cambiar el cursor para mostrar que no se puede interactuar */
+}

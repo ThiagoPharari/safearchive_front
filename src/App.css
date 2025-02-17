@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Contenedor principal del layout */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupar todo el alto de la ventana del navegador */
+}
+
+/* Contenido crece para llenar el espacio disponible */
+.content-container {
+  flex: 1;
+  /* Esto permite que el contenido ocupe todo el espacio restante */
+}
+
+footer {
+  position: relative;
+}

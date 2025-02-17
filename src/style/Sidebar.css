@@ -1,0 +1,42 @@
+/* Archivo Sidebar.css */
+.sidebar-container {
+    position: sticky;
+    top: 100px;
+    min-height: calc(100vh - 70px);
+    max-height: calc(100vh - 70px);
+    z-index: 20;
+    padding: 10px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .sidebar-container.expanded {
+    width: 18rem;
+    transition: width 0.3s ease-in-out;
+
+    
+  }
+  
+  .sidebar-container.collapsed {
+    width: 10rem; 
+    transition: width 0.3s ease-in-out;
+
+  }
+  
+  .hover-bg-btnColor:hover {
+    background-color: #28AECE;
+  }
+  
+  .bg-btnColor {
+    background-color: #28AECE;
+  }
+  
+  /* Transiciones para ocultar y mostrar el texto en la barra lateral */
+  .d-none {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .fw-semibold {
+    font-weight: 600;
+  }
+  
